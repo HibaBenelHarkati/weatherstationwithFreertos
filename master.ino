@@ -13,7 +13,7 @@
 #define TX 11 
 
 RH_ASK rf_driver;
-DHT dht11(DHTpin,DHT11);                             //initialiser le capteur dht 
+DHT dht11(DHTpin,DHT11);                             
 
 SemaphoreHandle_t semaphore;
 
@@ -31,7 +31,7 @@ void setup() {
   dht11.begin();
 
   Serial.println("hi1");
-  xTaskCreate(task1,"temp",500,NULL,2,NULL);   //priority it was 150
+  xTaskCreate(task1,"temp",500,NULL,2,NULL);   //priority was 150
   Serial.println("hi2");
   xTaskCreate(task2,"aur_qual",150,NULL,1,NULL);
   Serial.println("hi3");
