@@ -1,5 +1,5 @@
 ## Weather monitoring station
-This project aims to create a weather station that collects data from DHT11 sensor (temperature and humidity) as well as a gaz sensor(MQ-2) and sending using RF module(RX & TX)
+This project aims to create a weather station that collects data from DHT11 sensor (temperature and humidity) as well as a gaz sensor(MQ-2) and sending using RF module(RX & TX) using SPI as a communication procole
 ## TOOLS
 FreeRtos and Arduino
 ## FreeRtos
