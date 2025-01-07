@@ -16,7 +16,7 @@ ESP8266WebServer espserver(80);
 RH_ASK rf1;
 //QueueHandle_t queue1;
 
-void receiving(void *p);  // receiving cheine then la convertir vers array then afficher 
+void receiving(void *p);  // receiving chaine then la convertir vers array then afficher 
 void SendToweb(void *p);
 
 void setup() {
