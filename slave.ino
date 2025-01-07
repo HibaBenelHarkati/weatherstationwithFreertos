@@ -83,7 +83,7 @@ void receiving(void *p){
       Serial.print("la valeur recevee:");
       const char delimiter=" ";
       token=strtok(arr1,delimiter);   //get the first toke and convert it to int 
-      int element= token-"0";                            //elelemnts starting from temp ->humidit ->quelity of the air
+      int element= token-"0";                            //elemnts starting from temp ->humidity ->quality of the air
       xQueueSendToBack(queu1,element,portMAX_DELAY);
     }
   }
