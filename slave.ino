@@ -10,8 +10,8 @@
 #define tx 2   //de l esp8666
 #define rx 3     
 
-const char *ssid= "WIFI_AIAC_Etudiants";
-const char *password= "123456";
+const char *ssid= "******";
+const char *password= "*****";
 ESP8266WebServer espserver(80);
 RH_ASK rf1;
 //QueueHandle_t queue1;
