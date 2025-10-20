@@ -1,7 +1,7 @@
 ## Weather monitoring station
 This project aims to create a weather station that collects data from DHT11 sensor (temperature and humidity) as well as a gaz sensor(MQ-2) and sending using RF module(RX & TX) using SPI as a communication procole
 ## TOOLS
-FreeRtos and Arduino
+FreeRtos and Esp32
 ## FreeRtos
 Real time operating system for embedded devices, it offers many key functionalities:
    - Creating and deleting multiple tasks where each task has its own stack, priority over other tasks
